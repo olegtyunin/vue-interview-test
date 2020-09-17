@@ -1,8 +1,10 @@
-import { createStore } from "vuex";
+import { createStore, createLogger } from "vuex";
+
+import articles from "./modules/articles";
 
 export default createStore({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {}
+  plugins: [...(process.env.NODE_ENV !== "production" ? [createLogger()] : [])],
+  modules: {
+    articles
+  }
 });
