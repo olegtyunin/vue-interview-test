@@ -14,8 +14,7 @@ export default {
 button {
   border: 2px solid black;
   background-color: white;
-  font-size: 18px;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.5rem;
   cursor: pointer;
 
   &:focus,
