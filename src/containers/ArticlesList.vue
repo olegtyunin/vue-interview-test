@@ -12,8 +12,8 @@
 <script>
 import { mapState, mapActions } from "vuex";
 
-import Article from "../components/Article";
-import { GET_ARTICLES_LIST } from "../store/actions";
+import Article from "@/components/Article";
+import { GET_ARTICLES_LIST } from "@/store/actions";
 
 export default {
   name: "ArticlesList",

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ArticlesList from "./containers/ArticlesList";
+import ArticlesList from "@/containers/ArticlesList";
 
 export default {
   name: "App",

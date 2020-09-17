@@ -1,6 +1,6 @@
-import { fetchArticlesList } from "../../services/api";
-import { GET_ARTICLES_LIST } from "../actions";
-import { SET_ARTICLES_LIST } from "../mutations";
+import { fetchArticlesList } from "@/services/api";
+import { GET_ARTICLES_LIST } from "@/store/actions";
+import { SET_ARTICLES_LIST } from "@/store/mutations";
 
 const initialState = {
   articlesList: []
